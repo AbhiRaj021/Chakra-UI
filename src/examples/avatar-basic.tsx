@@ -1,10 +1,5 @@
-import { Avatar } from "../ui/avatar"
+import { Avatar } from "../components/ui/avatar";
 
 export const AvatarBasic = () => {
-  return (
-    <Avatar 
-      name="John Doe" 
-      src="https://picsum.photos/200/200" 
-    />
-  )
-}
+  return <Avatar name="John Doe" src="https://picsum.photos/200/200" />;
+};
