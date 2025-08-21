@@ -1,6 +1,7 @@
 import { Provider } from "./components/ui/provider";
-import HeroSection from "./HomePage";
-
+import { HeroSection } from "./HeroSection/Herosection";
+// import HeroSection from "./HomePage";
+import {NavigationDrawer} from "./Navbar/Navbar";
 function App() {
   return (
     <Provider>
@@ -44,7 +45,8 @@ function App() {
 
           <CardBasic />
         </VStack> */}
-      <HeroSection />
+        <NavigationDrawer/>
+    <HeroSection/>
     </Provider>
   );
 }
